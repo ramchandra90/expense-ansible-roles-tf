@@ -1,0 +1,8 @@
+- name: configure mysql server
+  hosts: mysql
+  become: yes
+  vars_files:
+  - /var/expense/credentials.yaml # calling password from ansible server
+
+  roles: 
+  - mysql
