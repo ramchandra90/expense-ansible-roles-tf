@@ -1,1 +1,3 @@
-BACKEND_HOST: backend.dawsnz.online
+BACKEND_HOST: backend.app-dev.dawsnz.online
+app_location: /usr/share/nginx/html
+component: frontend
